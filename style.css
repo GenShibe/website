@@ -1,0 +1,62 @@
+* {box-sizing: border-box;}
+body {background-image: url("assets/DSCF7233.png"); background-size: cover; background-repeat: no-repeat;
+background-position: center; background-attachment: fixed; background-color: #111111; color: #4c4f69; 
+font-family: "Polestar Unica77 TT", Arial, sans-serif;}
+
+.container {display: block;
+  margin-left: auto; margin-right: auto; width:75%; grid-gap: 20px; backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);}
+
+.divs {border: 2px solid #fe640b; border-radius: 10px; padding: 10px; }
+
+h1 {margin-bottom: 2px; margin-top: 2px; font-size: 4em; color:#313244; text-align: center;}
+
+h2 {margin-top: 2px; margin-bottom: 2px; font-size: 3em; color:#313244;text-align: center;}
+
+h3 {margin-bottom: 10px; margin-top: 3px; font-size: 1.75em; color:#fab387;text-align: center;}
+
+footer {text-align: center; border-top:2px; padding-top: 5px; padding-bottom: 0px;
+  margin-left: auto; margin-right: auto; width: 80%; color: #cdd6f4}
+
+h4 {margin-top: 2px; margin-bottom: 2px; font-size: 2.5em; color:#fab387;text-align: center;}
+
+p {font-size: 2em; margin: 10px; text-align: center; color: #cdd6f4}
+#h {font-size: 2.5em; text-align: center; list-style-type: none; color: #cdd6f4; font-weight: bold;}
+#e {font-size: 2em; text-align: center; list-style-type: none; color: #cdd6f4; margin-bottom: 1.5px;}
+
+.shit {display: inline-block; padding: 5px; border: 1px solid #fab387; padding-right 5px;
+  text-decoration: none; color: #cdd6f4;border-radius: 5px;
+  font-weight: bold; text-align: center; font-size: 1.25em; }
+
+  .button {padding: 5px; border: 1px solid #fab387; 
+  text-decoration: none; color: #cdd6f4; background-color: #1e1e2e; border-radius: 5px;
+  font-weight: bold; text-align: center; font-size: 1.25em; margin:5px; line-height:1.75em }
+  .button:hover {background-color: #fab387; color: #04a5e5;}
+
+a {color: #74c7ec}
+a:hover {color: #04a5e5}
+a:visited {color: #cba6f7}
+
+
+
+.batton {
+  display: grid;
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto ;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1px;
+}
+
+.meow {height: 2px; width: 80%; background-color: #f5a97f; margin-left: auto; margin-right: auto; margin-bottom: 10px; margin-top: 10px;}
+
+  @media screen and (max-width:750px) {
+  #h {padding: 0px; margin-left: 0px}
+    #e {padding: 0px; margin-left: 0px}
+    .button-container {display: flex;}
+
+  }
+
