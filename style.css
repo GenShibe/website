@@ -21,12 +21,14 @@ body {
     grid-gap: 20px;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .divs {
     border: 2px solid #fe640b;
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 0 0 10px 0px #fe640b;
 }
 
 h1 {
