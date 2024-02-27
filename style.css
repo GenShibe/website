@@ -101,7 +101,7 @@ p {
     display: inline-block;
     padding: 5px;
     border: 1px solid #fab387;
-    padding-right 5px;
+    padding-right: 5px;
     text-decoration: none;
     color: #cdd6f4;
     border-radius: 5px;
