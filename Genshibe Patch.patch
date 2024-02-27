@@ -1,0 +1,62 @@
+diff --git a/index.html b/index.html
+index 0a8a8ce..4f185ca 100644
+--- a/index.html
++++ b/index.html
+@@ -20,9 +20,9 @@
+         <div class="divs">
+             <h1>Hi, I'm Gen</h1>
+             <h2>and I use any pronouns :3</h2>
+-            <div class="meow"></div>
++            <div class="nya"></div>
+             <ul>
+-                <li id="h">I'm a 19 year old...</li>
++                <h4>I'm a 19 year old...</h4>
+                 <br>
+                 <li id="e">Transit enthusiast &#128653;</li>
+                 <li id="e">Photographer &#128248;</li>
+@@ -39,11 +39,9 @@
+             <br>
+             <div class="button-container">
+                 <div class="batton">
+-                    <button class="button"><a href="https://discord.com/users/217892728875253760"
+-                            target="_blank">Discord</a></button>
+-                    <button class="button"><a href="https://www.instagram.com/spotter_gen/"
+-                            target="_blank">Instagram</a></button>
+-                    <button class="button"><a href="mailto:genshibe@gmail.com" target="_blank">Email</a></button>
++                    <a href="https://discord.com/users/217892728875253760" target="_blank" class="button">Discord</a>
++                    <a href="https://www.instagram.com/spotter_gen/" target="_blank" class="button">Instagram</a>
++                    <a href="mailto:genshibe@gmail.com" target="_blank" class="button">Email</a>
+                 </div>
+                 <br>
+                 <footer>
+@@ -52,9 +50,10 @@
+                     </i>
+                 </footer>
+             </div>
+-            <script> let text = document.lastModified;
+-                document.getElementById("woof").innerHTML = text </script>
+-            </main>
++            <script>
++                document.getElementById("woof").innerHTML = document.lastModified; 
++            </script>
++        </main>
+ </body>
+ 
+ </html>
+diff --git a/style.css b/style.css
+index b12ce24..abc4b35 100644
+--- a/style.css
++++ b/style.css
+@@ -21,10 +21,12 @@ body {
+     grid-gap: 20px;
+     backdrop-filter: blur(15px);
+     -webkit-backdrop-filter: blur(15px);
++    background-color: rgba(0, 0, 0, 0.3);
+ }
+ 
+ .divs {
+     border: 2px solid #fe640b;
++    box-shadow: 0 0 10px 0px #fe640b;
+     border-radius: 10px;
+     padding: 10px;
+ }
