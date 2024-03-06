@@ -121,7 +121,7 @@
 body {
     background-color: var(--ctp-base);
     color: var(--ctp-text) !important;
-    font-family: Figtree, Arial, sans-serif;
+    font-family: Arial, sans-serif;
 
     display: flex;
     justify-content: center;
