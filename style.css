@@ -19,8 +19,7 @@ body {
 .divs {
     border: 2px solid #ef9f76;
     border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 0 10px 0px #ef9f76;
+    padding: 5px;
 }
 
 h1 {
@@ -164,6 +163,7 @@ a:visited {
     margin-right: auto;
     margin-bottom: 10px;
     margin-top: 10px;
+    box-shadow: 0 0 5px 0px #949cbb;
 }
 
 @media screen and (max-width:750px) {
