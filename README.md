@@ -1,4 +1,4 @@
-# [My Personal Website](https://genshibe.github.io)
+# [Genshibe.github.io](https://genshibe.github.io)
 my personal website lol, it's horrible
 ### License
 - All code is licensed under:
