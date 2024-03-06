@@ -138,9 +138,11 @@ p {
 a {
     color: var(--ctp-blue);
 }
+
 a:hover {
     color: var(--ctp-sapphire);
 }
+
 a:visited {
     color: var(--ctp-mauve);
 }
@@ -151,12 +153,14 @@ h1 {
     font-size: 3em;
     text-align: center;
 }
+
 h2 {
     margin-top: 2px;
     margin-bottom: 2px;
     font-size: 2em;
     text-align: center;
 }
+
 h3 {
     margin-top: 2px;
     margin-bottom: 2px;
@@ -207,6 +211,7 @@ footer {
     margin: 5px;
     line-height: 1.75em;
 }
+
 .socials a:hover {
     background-color: var(--ctp-peach);
     color: var(--ctp-mantle);
@@ -228,3 +233,5 @@ select {
     border-color: var(--ctp-surface0);
     border-radius: 0.375rem;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap')
