@@ -55,9 +55,24 @@
                         >Open source</a
                     ></span
                 >
+                <select class="theme-selector">
+                    <option value="latte">Latte</option>
+                    <option value="frappe">Frappé</option>
+                    <option value="macchiato">Macchiato</option>
+                    <option value="mocha">Mocha</option>
+                </select>
             </footer>
         </main>
         <script>
+            window.addEventListener("DOMContentLoaded", () => {
+                const selector = document.querySelector(".theme-selector");
+                selector.value = localStorage.getItem("theme") || "frappe";
+                document.documentElement.setAttribute("theme", selector.value);
+                selector.addEventListener("change", function () {
+                    localStorage.setItem("theme", this.value);
+                    document.documentElement.setAttribute("theme", this.value);
+                });
+            });
             document.querySelector(".last-updated").innerHTML =
                 document.lastModified;
         </script>
