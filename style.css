@@ -104,7 +104,7 @@ a {
 a:hover {
     color: #85c1dc
 }
-a:visited {
+a:not(.button):visited {
     color: #ca9ee6
 }
 .batton {
