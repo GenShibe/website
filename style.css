@@ -13,6 +13,9 @@ body {
     width: 75%;
     grid-gap: 20px;
 }
+ul {
+    padding: 0;
+}
 .divs {
     border: 2px solid #ef9f76;
     border-radius: 10px;
