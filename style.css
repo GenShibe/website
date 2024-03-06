@@ -1,13 +1,11 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     background-color: #303446;
     color: #4c4f69;
     font-family: "Figtree", Arial, sans-serif;
 }
-
 .container {
     display: block;
     margin-left: auto;
@@ -15,37 +13,32 @@ body {
     width: 75%;
     grid-gap: 20px;
 }
-
 .divs {
     border: 2px solid #ef9f76;
     border-radius: 10px;
     padding: 5px;
 }
-
 h1 {
     margin-bottom: 2px;
     margin-top: 2px;
-    font-size: 4em;
-    color: #c6d0f5;
-    text-align: center;
-}
-
-h2 {
-    margin-top: 2px;
-    margin-bottom: 2px;
     font-size: 3em;
     color: #c6d0f5;
     text-align: center;
 }
-
-h3 {
-    margin-bottom: 10px;
-    margin-top: 3px;
-    font-size: 1.75em;
+h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 2em;
+    color: #c6d0f5;
+    text-align: center;
+}
+h4 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 1.5em;
     color: #ef9f76;
     text-align: center;
 }
-
 footer {
     text-align: center;
     border-top: 2px;
@@ -56,22 +49,12 @@ footer {
     width: 80%;
     color: #c6d0f5
 }
-
-h4 {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    font-size: 2.5em;
-    color: #ef9f76;
-    text-align: center;
-}
-
 p {
     font-size: 2em;
     margin: 10px;
     text-align: center;
     color: #c6d0f5
 }
-
 #h {
     font-size: 2.5em;
     text-align: center;
@@ -79,7 +62,6 @@ p {
     color: #c6d0f5;
     font-weight: bold;
 }
-
 #e {
     font-size: 2em;
     text-align: center;
@@ -87,7 +69,6 @@ p {
     color: #c6d0f5;
     margin-bottom: 1.5px;
 }
-
 .shit {
     display: inline-block;
     padding: 5px;
@@ -100,7 +81,6 @@ p {
     text-align: center;
     font-size: 1.25em;
 }
-
 .button {
     padding: 5px;
     border: 1px solid #ef9f76;
@@ -114,37 +94,28 @@ p {
     margin: 5px;
     line-height: 1.75em
 }
-
 .button:hover {
     background-color: #ef9f76;
     color: #292c3c;
     border-color: #fab387;
 }
-
 a {
     color: #8caaee
 }
-
 a:hover {
     color: #85c1dc
 }
-
 a:visited {
     color: #ca9ee6
 }
-
 .batton {
-    display: grid;
-    width: 25%;
+    display: flex;
     margin-right: auto;
     margin-left: auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
-    padding-bottom: 1px;
+    flex-wrap: wrap;
 }
-
 .meow {
     height: 2px;
     width: 80%;
@@ -154,7 +125,6 @@ a:visited {
     margin-bottom: 10px;
     margin-top: 10px;
 }
-
 .nya {
     height: 2px;
     width: 80%;
@@ -165,20 +135,13 @@ a:visited {
     margin-top: 10px;
     box-shadow: 0 0 5px 0px #949cbb;
 }
-
 @media screen and (max-width:750px) {
     #h {
         padding: 0px;
         margin-left: 0px
     }
-
     #e {
         padding: 0px;
         margin-left: 0px
     }
-
-    .button-container {
-        display: flex;
-    }
-
 }
