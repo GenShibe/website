@@ -1,5 +1,5 @@
 # [genshibe.github.io](https://genshibe.github.io)
-my personal website lol, it's horrible
+my personal website lol, it's horrible, but at least it doesn't hurt your eyes :p
 ### License
 - All code is licensed under:
   [GPLv3](https://www.gnu.org/licenses/gpl-3.0#license-text)
