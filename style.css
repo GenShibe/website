@@ -121,7 +121,7 @@
 body {
     background-color: var(--ctp-base);
     color: var(--ctp-text) !important;
-    font-family: "Urbanist" Arial, sans-serif;
+    font-family: "Urbanist", Arial, sans-serif;
 
     display: flex;
     justify-content: center;
