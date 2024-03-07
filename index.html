@@ -51,7 +51,7 @@
                     >Last updated at <span class="last-updated"></span> | ©️
                     Licensed under GPL V3 |
                     <a href="https://github.com/GenShibe/genshibe.github.io/"
-                        >source code</a
+                        >Source code</a
                     ></span
                 >
                 <select class="theme-selector">
@@ -69,7 +69,7 @@
 <script>
                 window.addEventListener("DOMContentLoaded", () => {
     const selector = document.querySelector(".theme-selector");
-    selector.value = localStorage.getItem("theme") || window.matchMedia('(prefers-color-scheme: light)').matches ? "latte" : "frappe";
+    selector.value = localStorage.getItem("theme") || window.matchMedia('(prefers-color-scheme: dark)').matches ? "frappe" : "latte";
     document.documentElement.setAttribute("theme", selector.value);
     selector.addEventListener("change", function () {
         localStorage.setItem("theme", this.value);
