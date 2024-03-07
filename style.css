@@ -246,7 +246,7 @@ hr {
     background-color: var(--ctp-peach);
     border: none;
     margin: 1.5rem auto;
-    box-shadow: 0 0 5px 0px var(--ctp-peach);
+    box-shadow: 0 0 15px 0px var(--ctp-peach);
 }
 
 select {
