@@ -201,6 +201,8 @@ li {
     text-align: center;
     list-style-type: none;
     margin-bottom: 1.5px;
+    font-family: 'Victor Mono', Courier, monospace;
+    font-style: italic;
 }
 
 footer {
@@ -233,6 +235,8 @@ footer {
     font-size: 1.25em;
     margin: 5px;
     line-height: 1.75em;
+    font-family: 'Victor Mono', Courier, monospace;
+    font-style: italic;
 }
 
 .socials a:hover {
