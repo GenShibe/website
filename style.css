@@ -118,17 +118,6 @@
     --ctp-crust: #11111b;
 }
 
-/* urbanist-regular - latin */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Urbanist';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/urbanist-v15-latin-regular.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
 body {
     background-color: var(--ctp-base);
     color: var(--ctp-text) !important;
@@ -243,4 +232,15 @@ select {
     border-width: 2px;
     border-color: var(--ctp-surface0);
     border-radius: 0.375rem;
+}
+
+/* urbanist-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/urbanist-v15-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
