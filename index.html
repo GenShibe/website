@@ -74,6 +74,16 @@
             });
             document.querySelector(".last-updated").innerHTML =
                 document.lastModified;
+
+                window.addEventListener("DOMContentLoaded", () => {
+    const selector = document.querySelector(".theme-selector");
+    selector.value = localStorage.getItem("theme") || window.matchMedia('(prefers-color-scheme: light)').matches ? "latte" : "frappe";
+    document.documentElement.setAttribute("theme", selector.value);
+    selector.addEventListener("change", function () {
+        localStorage.setItem("theme", this.value);
+        document.documentElement.setAttribute("theme", this.value);
+    });
+});
         </script>
     </body>
 </html>
