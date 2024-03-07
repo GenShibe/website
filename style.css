@@ -154,7 +154,8 @@ body {
 
 p {
     font-size: 2em;
-    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -184,14 +185,6 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    font-size: 1.5em;
-    color: var(--ctp-peach);
-    text-align: center;
-}
-
 ul {
     padding: 0;
 }
@@ -203,10 +196,11 @@ li {
     margin-bottom: 1.5px;
     font-family: 'Victor Mono', Courier, monospace;
     font-style: italic;
+    align-content: center;
 }
 
 footer {
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -216,11 +210,10 @@ footer {
 }
 
 .socials {
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
     flex-wrap: wrap;
 }
 
@@ -238,7 +231,7 @@ footer {
     line-height: 1.75em;
     font-family: 'Victor Mono', Courier, monospace;
     font-style: italic;
-    box-shadow: 0 0 5.5px 0px var(--ctp-peach);
+    box-shadow: 0 0 5px 0 var(--ctp-peach);
 }
 
 
@@ -255,7 +248,7 @@ select {
     border-radius: 7px;
     font-family: 'Victor Mono', Courier, monospace;
     font-style: italic;
-    box-shadow: 0 0 5.5px 0px var(--ctp-peach);
+    box-shadow: 0 0 5px 0 var(--ctp-peach);
 }
 
 .socials a:hover {
@@ -269,5 +262,5 @@ hr {
     background-color: var(--ctp-peach);
     border: none;
     margin: 1.5rem auto;
-    box-shadow: 0 0 15px 0px var(--ctp-peach);
+    box-shadow: 0 0 15px 0 var(--ctp-peach);
 }
