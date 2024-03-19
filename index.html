@@ -6,7 +6,7 @@
         <meta
             property="og:description"
             content="A little bit of information about me :3"
-/>
+        />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://genshibe.github.io" />
         <title>Gen's Website</title>
@@ -27,6 +27,7 @@
                 <li>Student &#129489;&#8205;&#127891;</li>
                 <li>Canadian &#127464;&#127462;</li>
                 <li>Hong Konger 🇭🇰</li>
+                <li>Horrible coder :p</li>
                 <li>
                     Maintainer at
                     <a
@@ -65,17 +66,21 @@
         <script>
             document.querySelector(".last-updated").innerHTML =
                 document.lastModified;
-</script>
-<script>
-                window.addEventListener("DOMContentLoaded", () => {
-    const selector = document.querySelector(".theme-selector");
-    selector.value = localStorage.getItem("theme") || window.matchMedia('(prefers-color-scheme: dark)').matches ? "frappe" : "latte";
-    document.documentElement.setAttribute("theme", selector.value);
-    selector.addEventListener("change", function () {
-        localStorage.setItem("theme", this.value);
-        document.documentElement.setAttribute("theme", this.value);
-    });
-});
+        </script>
+        <script>
+            window.addEventListener("DOMContentLoaded", () => {
+                const selector = document.querySelector(".theme-selector");
+                selector.value =
+                    localStorage.getItem("theme") ||
+                    window.matchMedia("(prefers-color-scheme: dark)").matches
+                        ? "mocha"
+                        : "latte";
+                document.documentElement.setAttribute("theme", selector.value);
+                selector.addEventListener("change", function () {
+                    localStorage.setItem("theme", this.value);
+                    document.documentElement.setAttribute("theme", this.value);
+                });
+            });
         </script>
     </body>
 </html>
