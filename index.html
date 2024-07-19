@@ -1,91 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta property="og:title" content="Gen's Website" />
-		<meta
-			property="og:description"
-			content="A little bit of information about Gen :3"
-		/>
-		<meta property="og:type" content="website" />
-		<meta name="author" content="GenShibe" />
-		<meta name="robots" content="noindex, nofollow" />
-		<meta name="og:image" content="assets/DSCF8928.jpg" />
-		<meta property="og:url" content="https://genshibe.ca" />
-		<meta property="twitter:image" content="assets/DSCF8928.jpg" />
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Gen's Website" />
+        <meta
+            property="og:description"
+            content="A little bit of information about Gen :3"
+        />
+        <meta property="og:type" content="website" />
+        <meta name="author" content="GenShibe" />
+        <meta name="robots" content="noindex, nofollow" />
+        <meta name="og:image" content="assets/DSCF8928.jpg" />
+        <meta property="og:url" content="https://genshibe.ca" />
+        <meta property="twitter:image" content="assets/DSCF8928.jpg" />
 
-		<title>Gen's Website</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<main>
-			<h1>Hi, my name's Gen, and</h1>
-			<h2>
-				I use
-				<a href="https://en.pronouns.page/@genshibe">They/She pronouns :3</a>
-			</h2>
-			<hr />
-			<h2>I'm a...</h2>
-			<ul>
-				<li>Transit enthusiast &#128653;</li>
-				<li>
-					<a href="https://www.instagram.com/spotter_gen/">Photographer</a>
-					&#128248;
-				</li>
-				<li>Student &#129489;&#8205;&#127891;</li>
-				<li>Canadian &#127464;&#127462;</li>
-				<li>Hong Konger 🇭🇰</li>
-				<li>
-					Maintainer at
-					<a class="catppuccin" href="https://github.com/catppuccin/userstyles"
-						>Catppuccin</a
-					>
-				</li>
-			</ul>
-			<hr />
-			<footer>
-				<div class="socials">
-					<a href="https://discord.com/users/217892728875253760">Discord</a>
-					<a href="https://www.instagram.com/spotter_gen/">Instagram</a>
-					<a rel="me" href="https://tech.lgbt/@Genshibe">Mastodon</a>
-					<a href="mailto:gen@genshibe.ca">Email</a>
-				</div>
-				<span
-					>Last updated at : <span class="last-updated"></span> | ©️ Licensed
-					under GPL V3
-					<br />
-					<br />
-					This website is part of the
-					<br />
-					<a href="https://ctp-webr.ing/genshibe/previous">&larr;</a
-					><a href="https://ctp-webr.ing/"> ~Catppuccin Webring~ </a
-					><a href="https://ctp-webr.ing/genshibe/next">&rarr;</a>
-					<br />
-					<br />
-					<a href="https://github.com/GenShibe/website/">Source code</a>
-				</span>
-				<select class="theme-selector">
-					<option value="latte">Latte</option>
-					<option value="frappe">Frappé</option>
-					<option value="macchiato">Macchiato</option>
-					<option value="mocha">Mocha</option>
-				</select>
-			</footer>
-		</main>
-		<script>
-			window.addEventListener("DOMContentLoaded", () => {
-				const selector = document.querySelector(".theme-selector");
-				selector.value =
-					localStorage.getItem("theme") ||
-					window.matchMedia("(prefers-color-scheme: dark)").matches
-						? "mocha"
-						: "latte";
-				document.documentElement.setAttribute("theme", selector.value);
-				selector.addEventListener("change", function () {
-					localStorage.setItem("theme", this.value);
-					document.documentElement.setAttribute("theme", this.value);
-				});
-			});
-		</script>
-	</body>
+        <title>Gen's Website</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <h1>Hi, my name's Gen, and</h1>
+            <h2>
+                I use
+                <a href="https://en.pronouns.page/@genshibe"
+                    >They/She pronouns :3</a
+                >
+            </h2>
+            <hr />
+            <h2>I'm a...</h2>
+            <ul>
+                <li>Transit enthusiast &#128653;</li>
+                <li>
+                    <a href="https://www.instagram.com/spotter_gen/"
+                        >Photographer</a
+                    >
+                    &#128248;
+                </li>
+                <li>Student &#129489;&#8205;&#127891;</li>
+                <li>Canadian &#127464;&#127462;</li>
+                <li>Hong Konger 🇭🇰</li>
+                <li>
+                    Maintainer at
+                    <a
+                        class="catppuccin"
+                        href="https://github.com/catppuccin/userstyles"
+                        >Catppuccin</a
+                    >
+                </li>
+            </ul>
+            <hr />
+            <footer>
+                <div class="socials">
+                    <a href="https://discord.com/users/217892728875253760"
+                        >Discord</a
+                    >
+                    <a href="https://www.instagram.com/spotter_gen/"
+                        >Instagram</a
+                    >
+                    <a rel="me" href="https://tech.lgbt/@Genshibe">Mastodon</a>
+                    <a href="mailto:contact@genshibe.ca">Email</a>
+                </div>
+                <span
+                    >Last updated at : <span class="last-updated"></span> | ©️
+                    Licensed under GPL V3
+                    <br />
+                    <br />
+                    This website is part of the
+                    <br />
+                    <a href="https://ctp-webr.ing/genshibe/previous">&larr;</a
+                    ><a href="https://ctp-webr.ing/"> ~Catppuccin Webring~ </a
+                    ><a href="https://ctp-webr.ing/genshibe/next">&rarr;</a>
+                    <br />
+                    <br />
+                    <a href="https://github.com/GenShibe/website/"
+                        >Source code</a
+                    >
+                </span>
+                <select class="theme-selector">
+                    <option value="latte">Latte</option>
+                    <option value="frappe">Frappé</option>
+                    <option value="macchiato">Macchiato</option>
+                    <option value="mocha">Mocha</option>
+                </select>
+            </footer>
+        </main>
+        <script>
+            window.addEventListener("DOMContentLoaded", () => {
+                const selector = document.querySelector(".theme-selector");
+                selector.value =
+                    localStorage.getItem("theme") ||
+                    window.matchMedia("(prefers-color-scheme: dark)").matches
+                        ? "mocha"
+                        : "latte";
+                document.documentElement.setAttribute("theme", selector.value);
+                selector.addEventListener("change", function () {
+                    localStorage.setItem("theme", this.value);
+                    document.documentElement.setAttribute("theme", this.value);
+                });
+            });
+        </script>
+    </body>
 </html>
