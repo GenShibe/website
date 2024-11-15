@@ -182,7 +182,6 @@ li {
     text-align: center;
     list-style-type: none;
     margin-bottom: 1.5px;
-    font-style: italic;
     align-content: center;
 }
 
@@ -209,14 +208,15 @@ footer {
     text-decoration: none;
     color: var(--ctp-text);
     background-color: var(--ctp-surface0);
-    border-radius: 7px;
+    border-radius: 10px;
     border: 2px solid;
-    border-color: var(--ctp-mantle);
+    border-color: var(--ctp-peach);
     text-align: center;
     font-size: 1.25em;
     margin: 5px;
     line-height: 1.75em;
     box-shadow: 0 0 5px 0 var(--ctp-peach);
+    font-style: bold
 }
 
 
