@@ -205,7 +205,7 @@ li {
     text-align: center;
     list-style-type: none;
     margin-bottom: 1.5px;
-    font-family: 'Victor Mono', Courier, monospace;
+    font-family: 'VictorMono', Courier, monospace;
     font-style: italic;
     align-content: center;
 }
@@ -240,7 +240,7 @@ footer {
     font-size: 1.25em;
     margin: 5px;
     line-height: 1.75em;
-    font-family: 'Victor Mono', Courier, monospace;
+    font-family: 'VictorMono', Courier, monospace;
     font-style: italic;
     box-shadow: 0 0 5px 0 var(--ctp-peach);
 }
@@ -257,7 +257,7 @@ select {
     font-size: 1em;
     line-height: 1.25em;
     border-radius: 7px;
-    font-family: 'Victor Mono', Courier, monospace;
+    font-family: 'VictorMono', Courier, monospace;
     font-style: italic;
     box-shadow: 0 0 5px 0 var(--ctp-peach);
 }
