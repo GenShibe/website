@@ -86,7 +86,7 @@
                 selector.value =
                     localStorage.getItem("theme") ||
                     window.matchMedia("(prefers-color-scheme: dark)").matches
-                        ? "frappe"
+                        ? "macchiato"
                         : "latte";
                 document.documentElement.setAttribute("theme", selector.value);
                 selector.addEventListener("change", function () {
