@@ -219,6 +219,15 @@ footer {
     font-style: bold
 }
 
+assets/left.svg {
+    fill: var(--ctp-peach) !important;
+    stroke: var(--ctp-peach) !important;
+}
+
+assets/right.svg {
+    fill: var(--ctp-peach);
+    stroke: var(--ctp-peach);
+}
 
 select {
     padding: 0.25rem 0.5rem;
