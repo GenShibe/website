@@ -223,7 +223,14 @@ footer {
     margin: 5px;
     line-height: 1.75em;
     box-shadow: 0 0 5px 0 var(--ctp-peach);
-    font-style: bold
+    font-style: bold;
+    animation: 3s ease-in 1s infinite;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.socials a:hover {
+    background-color: var(--ctp-peach);
+    color: var(--ctp-mantle);
 }
 
 assets/left.svg {
@@ -253,10 +260,7 @@ select {
     
 }
 
-.socials a:hover {
-    background-color: var(--ctp-peach);
-    color: var(--ctp-mantle);
-}
+
 
 hr {
     height: 2px;
