@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="sheet.css" />
+    </head>
+    <body>
+        <main>
+        <h1>🐈🐩🦊 Animal Noise Currency Exchange FAQ 🐇🐈‍⬛🐕</h1>
+        <h2>Here are some frequently asked questions about Animal Noises Currency Exchange!</h2>
+        <hr/>
+        <ul>
+            <li>
+              <h3>Where Can I Transfer My Money?</h3>  
+            </li>
+            <li>
+                You transfer your money by using one of our two dedicated ATMs, convininently located at
+                <br>
+                <a href="https://www.openstreetmap.org/#map=18/49.194327/-122.967305&layers=N" target="_blank">8081 Meadow Avenue, Burnaby, BC, V3N 2V9, Canada.</a>
+                <br>
+                and
+                <br>
+                <a href="https://www.openstreetmap.org/way/301017480" target="_blank">1280 Raymur Ave, Vancouver, BC V6A 3L8, Canada.</a>
+            </li>
+            <br>
+           <li> <h3>How Long Does It Take For My Subscription to be Processed?</h3></li>
+            <li>It usually takes around 3-4 quadrillion microseconds to be processed. </li>
+            <br>
+            <li><h3>What Are the Benefits of Using You Over the Competition?</h3></li>
+            <li>One notable benefit is that its ran by animals, for animals, therefore you can expect the lowest level of privacy and security.</li>
+    </ul>
+    <hr/>
+    <a href="https://ko-fi.com/ielenia"><h3>Homepage</h3></a>
+    
+    <select class="theme-selector">
+        <option value="latte">Latte</option>
+        <option value="frappe">Frappé</option>
+        <option value="macchiato">Macchiato</option>
+        <option value="mocha">Mocha</option>
+    </select>
+</main>
+<footer>
+<script>
+    window.addEventListener("DOMContentLoaded", () => {
+        const selector = document.querySelector(".theme-selector");
+        selector.value =
+            localStorage.getItem("theme") ||
+            window.matchMedia("(prefers-color-scheme: dark)").matches
+                ? "mocha"
+                : "latte";
+        document.documentElement.setAttribute("theme", selector.value);
+        selector.addEventListener("change", function () {
+            localStorage.setItem("theme", this.value);
+            document.documentElement.setAttribute("theme", this.value);
+        });
+    });
+</script>
+</footer>
+    </body>
+    </html>

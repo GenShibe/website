@@ -148,15 +148,15 @@ p {
 }
 
 a {
-    color: var(--ctp-blue);
+    color: var(--ctp-red);
 }
 
 a:hover {
-    color: var(--ctp-sapphire);
+    color: var(--ctp-mauve);
 }
 
 a:visited {
-    color: var(--ctp-mauve);
+    color: var(--ctp-pink);
 }
 
 h1 {
@@ -193,48 +193,12 @@ li {
 }
 
 footer {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 2rem;
-}
-
-.socials {
     display: inline-flex;
-    justify-content: center;
     align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-.socials a {
-    padding: 0.25rem 0.5rem;
-    text-decoration: none;
-    color: var(--ctp-text);
-    background-color: var(--ctp-surface0);
-    border-radius: 10px;
-    border: 2px solid;
-    border-color: var(--ctp-peach);
+    justify-content: center;
     text-align: center;
-    font-size: 1.25em;
-    margin: 5px;
-    line-height: 1.75em;
-    box-shadow: 0 0 5px 0 var(--ctp-peach);
-    font-style: bold
 }
 
-assets/left.svg {
-    fill: var(--ctp-peach) !important;
-    stroke: var(--ctp-peach) !important;
-}
-
-assets/right.svg {
-    fill: var(--ctp-peach);
-    stroke: var(--ctp-peach);
-}
 
 select {
     padding: 0.25rem 0.25rem;
@@ -249,20 +213,15 @@ select {
     display: inline-flex;
     font-size: 1em;
     border-radius: 7px;
-    box-shadow: 0 0 5px 0 var(--ctp-peach);
+    box-shadow: 0 0 5px 0 var(--ctp-green);
     
-}
-
-.socials a:hover {
-    background-color: var(--ctp-peach);
-    color: var(--ctp-mantle);
 }
 
 hr {
     height: 2px;
     width: 80%;
-    background-color: var(--ctp-peach);
+    background-color: var(--ctp-yellow);
     border: none;
     margin: 1.5rem auto;
-    box-shadow: 0 0 15px 0 var(--ctp-peach);
+    box-shadow: 0 0 15px 0 var(--ctp-yellow);
 }
