@@ -14,6 +14,7 @@
         <meta property="og:url" content="https://genshibe.ca" />
         <title>Gen's Website</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="/assets/logo.svg">
     </head>
     <body>
         <main>
@@ -31,7 +32,6 @@
                 <li>Maintainer at <a class="catppuccin" href="https://github.com/catppuccin/userstyles" target="_blank">Catppuccin</a></li>
             </ul>
             <hr/>
-            <footer>
                 <div class="socials">
                     <a href="https://discord.com/users/217892728875253760" target="_blank">Discord</a>
                     <a href="https://www.instagram.com/spotter_gen/" target="_blank">Instagram</a>
@@ -39,11 +39,13 @@
                     <a href="mailto:contact@genshibe.ca">Email</a>
                     <a href="https://ko-fi.com/genshibe" target="_blank">Ko-Fi</a>
                 </div>
+                <br>
+                <br>
                  <div class ="buttons">
                     <a href="https://genshibe.ca"><img alt="Gen's Website" src="assets/button.png"></a>
                     <a href="https://blog.catwithaclari.net" target="_blank"><img alt="ChloeCat's website" src ="https://blog.catwithaclari.net/button.png"></a>
                     <a href="https://isabelroses.com" target="_blank"><img alt ="Izsybelle's website" src="assets/bell.gif"> </a>
-                    <a href="https://marq42.xyz" target="_blank"><img alt="mir's website" src ="https://marq42.xyz/88x31/mir.png"></a>
+                   <!-- <a href="https://marq42.xyz" target="_blank"><img alt="mir's website" src ="https://marq42.xyz/88x31/mir.png"></a> -->
                     <a href="https://amy.rip" target="_blank"><img alt = "amy's website" src="https://amy.rip/88x31.png"> </a>
                     <a href="https://trinkey.com/" target="_blank"><img src="https://trinkey.com/img/88x31.png"></a>
                     <a href="https://alyxia.dev" target="_blank"><img alt="Alyxia's website" src= "https://alyxia.dev/static/img/88x31/self.png"></a>
@@ -60,7 +62,8 @@
                     <img src ="https://cyber.dabamos.de/88x31/she-her.gif">
                     <img src ="https://cyber.dabamos.de/88x31/they-them.gif">
                  </div>
-                <span>
+                 <hr/>
+                <span class="updated">
                     Last updated at: <span class="last-updated"></span>
                 </span>
                 <div class="webring">
@@ -70,32 +73,12 @@
                     <a href="https://ctp-webr.ing"><img alt="Catppuccin Webring" src="assets/webbring.webp"></a>
                     <a href="https://ctp-webr.ing/genshibe/next"><img src="assets/right.svg"></a>
                     </div>
+                    <footer>
                     <div class="source">
                     <p>©️ GenShibe | Licensed under GPL v3</p>
                     <a href="https://github.com/GenShibe/website/">Source</a>
                     </div>
-                <select class="theme-selector">
-                    <option value="latte">Latte</option>
-                    <option value="frappe">Frappé</option>
-                    <option value="macchiato">Macchiato</option>
-                    <option value="mocha">Mocha</option>
-                </select>
             </footer>
         </main>
-        <script>
-            window.addEventListener("DOMContentLoaded", () => {
-                const selector = document.querySelector(".theme-selector");
-                selector.value =
-                    localStorage.getItem("theme") ||
-                    window.matchMedia("(prefers-color-scheme: dark)").matches
-                        ? "mocha"
-                        : "latte";
-                document.documentElement.setAttribute("theme", selector.value);
-                selector.addEventListener("change", function () {
-                    localStorage.setItem("theme", this.value);
-                    document.documentElement.setAttribute("theme", this.value);
-                });
-            });
-        </script>
     </body>
 </html>
