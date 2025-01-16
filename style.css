@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #1e1e2e;
+    background-color: #1e1e2e !important;
     color: #cdd6f4;
     font-family: "Urbanist", Arial, sans-serif;
     display: flex;
