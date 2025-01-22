@@ -116,6 +116,12 @@ footer {
     gap: 2em;
 }
 
+.four {
+    display: inline-block;
+    vertical-align: middle !important;
+    line-height: normal;
+}
+
 .socials a {
     padding: 0.25rem 0.5rem;
     text-decoration: none;
