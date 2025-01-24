@@ -10,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100vh;
 }
 
 /* urbanist-regular - latin */
@@ -105,21 +106,26 @@ footer {
 
 .updated {
     margin: auto;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-}
-
-.socials {
-    margin: auto;
-    display: block;
-    gap: 2em;
+    justify-items: center;
+    display: flex;
 }
 
 .four {
     display: inline-block;
     vertical-align: middle !important;
     line-height: normal;
+}
+.meow {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+.socials {
+    display: flex;
+    justify-content:space-evenly;
 }
 
 .socials a {
