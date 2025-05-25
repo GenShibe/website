@@ -52,9 +52,12 @@ h1 {
 
 h2 {
     margin-top: 2px;
-    margin-bottom: 2px;
+    margin-bottom: 0.2px;
+    margin-left: auto;
     font-size: 1.75em;
     text-align: center;
+    margin-right: auto;
+    align-items: center;
 }
 
 h3 {
@@ -64,15 +67,11 @@ h3 {
     text-align: center;
 }
 
-ul {
-    padding: 0;
-}
 
 li {
     font-size: 1.5em;
     text-align: center;
     list-style-type: none;
-    margin-bottom: 1.5px;
     align-content: center;
 }
 
@@ -94,31 +93,11 @@ footer {
     display: block;
 }
 
-
 .webring {
     margin: auto;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-.updated {
-    margin: auto;
-    justify-content: center;
-    justify-items: center;
-    display: flex;
-}
-
-.four {
-    display: inline-block;
-    vertical-align: middle !important;
-    line-height: normal;
-}
-.meow {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    height: 100vh;
 }
 
 .socials {
@@ -149,19 +128,9 @@ footer {
     color: #11111b;
 }
 
-assets/left.svg {
-    fill: #fab387 !important;
-    stroke: #fab387 !important;
-}
-
-assets/right.svg {
-    fill: #fab387;
-    stroke: #fab387;
-}
-
 hr {
     height: 2px;
-    width: 80%;
+    width: 90%;
     background-color: #fab387;
     border: none;
     margin: 1.5rem auto;
