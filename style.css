@@ -3,14 +3,12 @@
 }
 
 body {
-    background-color: #1e1e2e !important;
+    background-color: #1e1e2e;
     color: #cdd6f4;
     font-family: "Urbanist", Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100vh;
 }
 
 /* urbanist-regular - latin */
@@ -48,14 +46,14 @@ a:visited {
 h1 {
     margin-bottom: 2px;
     margin-top: 2px;
-    font-size: 3em;
+    font-size: 3.5em;
     text-align: center;
 }
 
 h2 {
     margin-top: 2px;
     margin-bottom: 2px;
-    font-size: 2em;
+    font-size: 1.75em;
     text-align: center;
 }
 
