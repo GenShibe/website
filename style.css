@@ -133,11 +133,11 @@ footer {
     background-color: #313244;
     border-radius: 10px;
     border: 2px solid;
-    border-color: #fab387;
+    border-color: #89b4fa;
     font-size: 1.25em;
     margin: auto;
-    line-height: 1.75em;
-    box-shadow: 0 0 5px 0 #fab387;
+    line-height: 1.5em;
+    box-shadow: 0 0 5px 0 #89b4fa;
     font-style: bold;
     animation: 3s ease-in 1s infinite;
     transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
@@ -145,7 +145,7 @@ footer {
 }
 
 .socials a:hover {
-    background-color: #fab387;
+    background-color: #89b4fa;
     color: #11111b;
 }
 
